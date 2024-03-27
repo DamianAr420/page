@@ -1,0 +1,14 @@
+#homeBody {
+    width: 100vw;
+    height: 85vh;
+    position: absolute;
+    bottom: 0;
+    background-color: #111;
+}
+
+#homeBody h1 {
+    font-size: 200%;
+    color: #f7f7f7;
+    width: 100vw;
+    text-align: center;
+}

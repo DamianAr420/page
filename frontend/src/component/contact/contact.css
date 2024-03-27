@@ -1,0 +1,105 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#contactBody {
+    width: 100vw;
+    height: 85vh;
+    background-color: #111;
+    bottom: 0;
+    position: absolute;
+}
+
+#conBox {
+    width: 50vw;
+    height: 50vh;
+    border-radius: 10%;
+    border: 2px solid rgb(255, 251, 0);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#conBox img {
+    height: 40%;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid rgb(255, 251, 0);
+}
+
+#data {
+    width: 50vw;
+    text-align: center;
+    line-height: 6vh;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 200%;
+    color: #fff;
+
+    @media (min-width: 1696px) and (max-width: 1879px) {
+        width: 26vw;
+    }
+    @media (min-width: 1537px) and (max-width: 1695px) {
+        width: 28vw;
+    }
+    @media (min-width: 1434px) and (max-width: 1536px) {
+        width: 30vw;
+    }
+    @media (min-width: 1345px) and (max-width: 1433px) {
+        width: 32vw;
+    }
+    @media (min-width: 1266px) and (max-width: 1344px) {
+        width: 34vw;
+    }
+    @media (min-width: 1196px) and (max-width: 1265px) {
+        width: 36vw;
+    }
+    @media (min-width: 1134px) and (max-width: 1195px) {
+        width: 38vw;
+    }
+    @media (min-width: 1077px) and (max-width: 1133px) {
+        width: 40vw;
+    }
+    @media (min-width: 1026px) and (max-width: 1076px) {
+        width: 42vw;
+    }
+    @media (min-width: 978px) and (max-width: 1025px) {
+        width: 44vw;
+    }
+    @media (min-width: 937px) and (max-width: 977px) {
+        width: 46vw;
+    }
+    @media (min-width: 918px) and (max-width: 936px) {
+        width: 48vw;
+    }
+}
+
+#data button {
+    border: 0;
+    background-color: transparent;
+    color: #fff;
+    font-size: 80%;
+    cursor: pointer;
+}
+
+#conLink {
+    text-decoration: none;
+    color: #fff;
+}
+
+#tutorial {
+    font-size: 50%;
+    color: rgb(255, 251, 0);
+    margin-top: 1vh;
+    border-bottom: 0;
+}
+
+.info {
+    border-bottom: 2px solid rgb(255, 251, 0);
+}

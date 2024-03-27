@@ -1,0 +1,12 @@
+/public
+.prettierrc.json
+prettier.config.js
+logo.svg
+package-lock.json
+package.json
+App.test.js
+reportWebVitals.js
+setupTests.js
+node_modules
+.vscode
+.env
