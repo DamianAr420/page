@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Link, Routes, Route } from "react-router-dom";
 import Content from "../mainPageContent/content";
 import Notepad from "../notepad/Notes";
 import Contact from "../contact/contact";
-import Calculator from "../calculator/calculator";
+import Calculator from "../../calculator/calculator";
 
 export default class Header extends React.Component { 
     render() {
