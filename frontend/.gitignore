@@ -10,4 +10,3 @@ setupTests.js
 node_modules
 .vscode
 .env
-.gitignore
